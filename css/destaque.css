@@ -1,0 +1,21 @@
+.destaque{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0;
+    background-color: var(--cor-secundaria-light);
+}   
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.destaque-titulo{
+    color: var(--cor-primaria-light);
+    font-size: 4rem;
+    font-family: "Sigmar", sans-serif;
+
+}   
+.destaque-titulo > span{
+    color: var( --cor-terciaria-dark);
+}

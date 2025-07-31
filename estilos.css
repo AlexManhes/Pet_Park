@@ -1,0 +1,65 @@
+
+@import url(./css/cabecalho.css);
+@import url(./css/destaque.css);
+body{
+    font-family: 'Poppis', sans-serif;
+    color: #444444;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: #ffffff;
+
+    .container {
+        width: 1200px;;
+    }
+}
+:root {
+    /* Cores */
+
+    --cor-primaria-dark: #c13724;
+    --cor-primaria-light: #ee6451;
+    --cor-secundaria-light: #fff5eb;
+    --cor-secundaria-dark: #f5e6d6;
+    --cor-terciaria-medio: #cbda74;
+    --cor-terciaria-dark: #a2b72b;
+    --cor-terciaria-light: #eff2e1;
+    --cor-neutra-dark: #444444;
+    --cor-neutra-medio: #b9b9b9;
+    --cor-neutra-light: #ffffff;
+
+    /* Tipografia */
+    --font-sigmar: "Sigmar", sans-serif;
+    --font-poppins: "Poppins", sans-serif;
+
+    /* Tamanhos de fonte */
+    --font-size-xxxl: 4.5rem;
+    --font-size-xxl: 2.625rem;
+    --fonte-size-xl: 2.438rem;
+    --fonte-size-l: 1.938rem;
+    --fonte-size-xm: 1.563rem;
+    --fonte-size-m: 1.25rem;
+    --fonte-size-b: 1rem;
+    --fonte-size-s: 0.813rem;
+
+    /* Altura da linhas */
+    --line-height: 120%;
+
+    /* Espaçamentos */
+    --padding-xs: 0.25rem;
+    --padding-s: 0.5rem;
+    --padding-m: 1rem;
+    --padding-l: 1.5rem;
+    --padding-xl: 2rem;
+    --padding-xxl: 2.5rem;
+    --padding-3xl: 3.75rem;
+    --padding-4xl: 4rem;
+    --padding-5xl: 4.75rem;
+
+    --gap-xs: 0.25rem;
+    --gap-s: 0.5rem;
+    --gap-m: 1rem;
+    --gap-l: 1.5rem;
+    --gap-xl: 2rem;
+    --gap-xxl: 2.5rem;
+    --gap-xxxl: 6rem;
+}
