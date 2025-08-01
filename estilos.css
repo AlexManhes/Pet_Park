@@ -1,9 +1,11 @@
 
 @import url(./css/cabecalho.css);
 @import url(./css/destaque.css);
+@import url(./css/servicos.css);
+@import url(./css/planos.css);
+
 body{
-    font-family: 'Poppis', sans-serif;
-    color: #444444;
+    font-family: var(--font-poppins);
     width: 100%;
     height: 100%;
     box-sizing: border-box;
@@ -62,4 +64,23 @@ body{
     --gap-xl: 2rem;
     --gap-xxl: 2.5rem;
     --gap-xxxl: 6rem;
+}
+h1, h2, h3, h4,h3{
+    font-family: var(--font-sigmar);
+    line-height: var(--line-height);
+}
+h1{
+    font-size: var(--font-size-xxxl);
+}
+h2{
+    font-size: var(--font-size-xxl);
+}
+h3{
+    font-size: var(--fonte-size-xl);
+}
+h4{
+    font-size: var(--fonte-size-l);
+}
+h5{
+    font-size: var(--fonte-size-xm);
 }
