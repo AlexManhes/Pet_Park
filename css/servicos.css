@@ -17,6 +17,10 @@
     gap: var(--gap-m);
     justify-content: space-between;
     align-self: center;
+    @media (max-width: 768px) {
+        height: 300px;
+        justify-content: space-around;;
+    }
 }
 .servicos-lista>li>.link{
     position: relative;

@@ -98,7 +98,11 @@ body {
     box-sizing: border-box;
     background-color: var(--cor-neutra-light);
 
-    .container {
-        width: 1200px;
-    }
+    
 }
+.container {
+        width: 1200px;
+        @media screen and (max-width: 1768px) {
+            width: 648px;
+        }
+    }

@@ -17,10 +17,14 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: var(--gap-xxxl);
+    @media (max-width: 768px) {
+     gap:var(--gap-xxl)   
+    }
 }
 .lista-parceiros>div{
     flex: 1 0 100px;
     width: 100px;
+    
 }
 .lista-parceiros>div>img{
     max-width: 100%;
