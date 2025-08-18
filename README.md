@@ -24,15 +24,3 @@ O projeto utiliza as seguintes tecnologias e bibliotecas:
 
 E muito mais...
 
-## 🛠️ Abrir e rodar o projeto
-
-Para executar o projeto em seu ambiente local, siga estas etapas:
-
-1. Baixe o repositório do projeto.
-
-1. Extraia os arquivos para uma pasta de sua preferência.
-
-4. Navegue até a pasta em questão
-
-5. Abra o arquivo index.html no seu navegador, iniciando assim o projeto localmente
-
