@@ -1,24 +1,4 @@
-.rodape{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: var(--padding-xxl);
-}
-.rodape-bg{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
-}
-.icones-rodape{
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    gap: var(--gap-s);
-}
-.icone-rodape{
-    margin-right: 0.5rem ;
-    &:last-child{.rodape {
+.rodape {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -51,9 +31,6 @@
     margin-right: 0.5rem;
 
     &:last-child {
-        margin-right: 0;
-    }
-}
         margin-right: 0;
     }
 }

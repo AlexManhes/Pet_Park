@@ -1,4 +1,4 @@
-.servicos{
+.servicos {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -8,21 +8,24 @@
     padding: var(--padding-5xl) 0;
 }
 
-.servicos-titulo{
+.servicos-titulo {
     color: var(--cor-primaria-light);
 }
-.servicos-lista{
+
+.servicos-lista {
     display: flex;
     flex-wrap: wrap;
     gap: var(--gap-m);
     justify-content: space-between;
-    align-self: center;
+    align-items: center;
+
     @media (max-width: 768px) {
         height: 300px;
-        justify-content: space-around;;
+        justify-content: space-around;
     }
 }
-.servicos-lista>li>.link{
+
+.servicos-lista>li>.link {
     position: relative;
     background-color: var(--cor-secundaria-light);
     text-decoration: none;
@@ -30,9 +33,10 @@
     padding: var(--padding-m) var(--padding-l);
     font-family: var(--font-sigmar);
     font-size: var(--font-size-m);
-    color: var(--cor-primaria-light );
+    color: var(--cor-primaria-light)
 }
-.link::before{
+
+.link::before {
     content: "";
     position: absolute;
     left: -10px;
@@ -42,28 +46,35 @@
     background-size: cover;
     background-repeat: no-repeat;
     transform: scale(0);
-    transition: transform 0.3s ease, left 0.3 ease;
+    transition: transform 0.3s ease, left 0.3s ease;
 }
-.banho-e-tosa>.link::before{
+
+.banho-e-tosa>.link::before {
     background-image: url("../assets/icones/banho-e-tosa.png");
 }
-.hospedagem>.link::before{
+
+.hospedagem>.link::before {
     background-image: url("../assets/icones/hospedagem.png");
 }
-.veterinario>.link::before{
+
+.veterinario>.link::before {
     background-image: url("../assets/icones/veterinario.png");
 }
-.adestramento>.link::before{
+
+.adestramento>.link::before {
     background-image: url("../assets/icones/adestramento.png");
 }
-.petsiter>.link::before{
+
+.petsiter>.link::before {
     background-image: url("../assets/icones/petsiter.png");
 }
-.servicos-lista>li>.link:hover{
+
+.servicos-lista > li > .link:hover {
     transform: scale(1.05);
     transition: transform 0.3s ease-in;
     padding-left: var(--padding-xxl);
 }
+
 .link:hover::before{
     transform: scale(1) translateY(50%);
     left: 0.5rem;
